@@ -1,7 +1,7 @@
 ---
 name: construction-copilot
 description: This skill should be used when a construction manager, site supervisor or QA inspector pastes a defect list, site report, QA inspection, contractor update or scope, or drops site photos, and asks "prioritise these defects", "what is blocking stage 2", "write the contractor instruction", "progress summary" or "is this pit compliant". Covers civil and fibre FTTP estate builds. Local only.
-version: 1.0.0
+version: 1.1.0
 ---
 
 # Construction Copilot

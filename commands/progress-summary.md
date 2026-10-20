@@ -9,7 +9,7 @@ $ARGUMENTS
 
 1. Apply `copilot-common` privacy rules. Identify the period from the input or ask; never assume the current week.
 2. Sort every item in the input into COMPLETED, IN PROGRESS, BLOCKED, NEXT WEEK. Quantities (pits, metres of conduit, metres of cable, splices, premises passed) are copied with their units and source line; do not total figures unless the input gives the components.
-3. Use the PROGRESS SUMMARY template in `references/contractor-instruction-template.md` (section "Progress summary"). RISKS come from BLOCKED items and from `references/defect-priority-matrix.md` triggers (weather, access, permits, materials, resources).
+3. Use the PROGRESS SUMMARY template in `${CLAUDE_PLUGIN_ROOT}/skills/construction-copilot/references/contractor-instruction-template.md` (section "Progress summary"). RISKS come from BLOCKED items and from `${CLAUDE_PLUGIN_ROOT}/skills/construction-copilot/references/defect-priority-matrix.md` triggers (weather, access, permits, materials, resources).
 4. Output:
 ```
 PROGRESS SUMMARY
